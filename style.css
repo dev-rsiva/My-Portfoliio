@@ -1,0 +1,347 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+header,
+div {
+  background-color: whitesmoke;
+}
+
+header {
+  font-family: "Baloo Tamma 2", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+  min-height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  font-size: larger;
+  flex-wrap: wrap;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  list-style: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+}
+
+#intro {
+  font-family: "Baloo Tamma 2", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  box-shadow: 0 4px 16px rgb(228, 203, 203);
+  width: 75%;
+  margin: 50px auto;
+  padding: 40px 50px;
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#myself {
+  display: flex;
+  flex-flow: column wrap;
+  font-family: "Baloo Tamma 2", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-large;
+  min-height: 150px;
+  text-align: center;
+  padding: 0px 15px;
+}
+
+#myself h2 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+#myself h4 {
+  font-weight: lighter;
+}
+
+#myself h6 {
+  font-weight: lighter;
+  margin-top: 15px;
+}
+
+#image {
+  border-radius: 50%;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.menuitem {
+  width: 75%;
+  min-height: 200px;
+  margin: 50px auto;
+  box-shadow: 0 4px 16px rgb(228, 203, 203);
+  font-family: "Baloo Tamma 2", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  border-radius: 10px;
+  list-style: ;
+}
+
+.menuitem h2 {
+  font-size: xx-large;
+  font-weight: lighter;
+  border-bottom: 2px solid rgb(31, 76, 94);
+  width: 140px;
+}
+
+.menuitem input {
+  font-family: "Baloo Tamma 2", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  width: 100px;
+  padding: 5px 0px;
+  font-size: 20px;
+  box-shadow: 0 4px 16px rgb(228, 203, 203);
+}
+
+.menuitem h3 {
+  margin-top: 35px;
+}
+.menuitem h3,
+p {
+  margin-bottom: 20px;
+}
+.menuitem ul {
+  margin-left: 18px;
+}
+.menuitem .company {
+  color: skyblue;
+  font-size: larger;
+}
+#skillsh2 {
+  width: 65px;
+}
+#icon img {
+  width: 50px;
+  height: 50px;
+}
+#allicons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#icon {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  margin-right: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+#projectitem {
+  width: 83%;
+  height: auto;
+  margin: 50px auto;
+  box-shadow: 0 4px 16px rgb(228, 203, 203);
+  font-family: "Baloo Tamma 2", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  padding: 40px 5px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+#projectitem h2 {
+  margin-left: 50px;
+  width: 110px;
+  font-size: xx-large;
+  font-weight: lighter;
+  border-bottom: 2px solid skyblue;
+}
+
+#allprojects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin-top: 30px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 16px rgb(228, 203, 203);
+  max-width: 450px;
+  min-height: 400px;
+}
+
+.project img {
+  max-width: 350px;
+  height: auto;
+  margin: 15px;
+}
+
+.project h3 {
+  margin: 15px;
+}
+
+.project a {
+  text-decoration: none;
+  color: skyblue;
+}
+.project p {
+  margin-top: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+footer {
+  background-color: whitesmoke;
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 0px 16px rgba(0, 0, 0, 0.075);
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120px;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    display: flex;
+    min-height: 100px;
+    justify-content: space-around;
+  }
+
+  header ul li {
+    margin: 5px;
+  }
+
+  #intro {
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content: center;
+  }
+  #image {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  .menuitem {
+    width: 65%;
+  }
+  .menuitem input {
+    padding: 5px 0px;
+  }
+  .menuitem h2 {
+    padding: 0px;
+  }
+  .menuitem h3 {
+    padding-bottom: 0px;
+  }
+  .menuitem p {
+    padding-top: 15px;
+  }
+  .menuitem .company {
+    padding: 0px;
+    margin: 0px;
+  }
+  #icon {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  #icon img {
+    width: 50px;
+    height: 50px;
+  }
+  .project {
+    width: 100%;
+  }
+  .project img {
+    width: 100%;
+  }
+  .project p {
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 987px) {
+  .project {
+    max-width: 270px;
+  }
+
+  .project img {
+    max-width: 250px;
+  }
+
+  .project p {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (min-width: 987px) and (max-width: 1275px) {
+  .project {
+    max-width: 350px;
+  }
+
+  .project img {
+    max-width: 300px;
+  }
+
+  .project p {
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
